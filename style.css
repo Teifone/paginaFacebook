@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: rgb(214, 214, 253);
+}
+
+header{
+    height: 5rem;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+h1{
+    font-family: 'Alexandria', sans-serif;
+    color: rgb(6, 97, 234);
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+}
+
+.ingreso{
+    display: flex;
+    padding-right: 3rem;
+}
+
+label{
+    margin: 0 0.2rem;
+}
+
+input{
+    height: 3rem;
+    width: 16rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+    padding: 1rem;
+}
+
+input:hover{
+    border: 0.2rem solid black;
+}
+
+.ingreso p{
+    display: flex;
+}
+
+.olvidaste a{
+    text-decoration: none;
+    color: rgb(6, 97, 234);
+    font-size: 1.5rem;
+    padding-top: 0.6rem;
+}
+
+.olvidaste a:hover{
+    text-decoration: underline;
+}
+
+.ingreso button{
+    margin-right: 1rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    width: 10rem;
+    height: 3.1rem;
+    font-size: 1.1rem;
+    background-color:  rgb(6, 97, 234);
+    color: white;
+    border: 0;
+}
+
+.ingreso button:hover{
+    background-color:  rgb(6, 84, 200);
+    cursor:pointer;
+}
+
+aside{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(231, 231, 231);
+}
+
+.fotoBanner img{
+    width: 110rem;
+    height: 35rem;
+    border-radius: 2rem;
+}
+
+.foto_nombre{
+    width: 96rem;
+    height: 8rem;
+    border-bottom: .2rem solid gray;
+    display: flex;
+    align-items: center;
+}
+
+.divPerfil{
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50rem;
+    margin-bottom: 15rem;
+} 
+
+.foto_nombre img{
+    width: 20rem;
+    height: 20rem;
+    padding: 0.5rem;
+    border-radius: 50rem;
+}
+
+.divNombre{
+    width: 76rem;
+    margin-left: 2rem;
+}
+
+.divNombre p{
+    font-family: 'Lato', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+
+p span{
+    font-size: 3rem;
+    font-weight:300;
+    margin-left: 1rem;
+}
+
+.banner{
+    width: 96rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botonesCategoria{
+    display: flex;
+}
+
+.botonesCategoria button{
+    height: 5rem;
+    width: 10rem;
+    border: 0;
+}
+
+.botonesCategoria button{
+    height: 5rem;
+    width: 10rem;
+    border: 0;
+    background-color: rgb(231, 231, 231);
+    border-radius: 1rem;
+    font-family: 'Alexandria', sans-serif;
+    color: gray;
+    font-weight: bold;
+}
+
+.botonesCategoria button:hover{
+    background-color: rgb(214, 213, 213);
+    cursor:pointer;
+}
+
+.botonMas button{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 1rem;
+    border: 0;
+    background-color: rgb(214, 213, 213);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 3rem;
+}
+
+.botonMas button:hover{
+    background-color: rgb(192, 191, 191);
+    cursor:pointer;
+}
+
+.informacion img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.contenidoPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+.informacionFotos{
+    display: inline-block;
+    padding-right: 1rem;
+    padding-top: 2rem;
+    width: 60rem;
+    padding-left: 0.5rem;
+}
+
+.informacion, .fotos{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+}
+
+.informacion h2{
+    margin-bottom: 1rem;
+}
+
+.divisionInfo div{
+    display:flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.divisionInfo img{
+    width: 4rem;
+    height: 4rem;
+    margin: 1rem 0;
+}
+
+.divisionInfo p{
+    margin-left: 1.5rem;
+}
+
+.empleo p{
+    font-weight: 700;
+    color: rgb(158, 157, 157);
+    font-size: 1.4rem;
+}
+
+.universidad p, .escuelaSecundaria p, .fotos p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.divisionInfo a{
+    color:black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.divisionInfo a:hover{
+    text-decoration: underline;
+}
+
+.informacion h3{
+    font-size: 1.5rem;
+}
+
+.fotos{
+    margin-top: 2rem;
+}
+
+.referencias{
+    margin-top: 2rem;
+    display: inline-block;
+    width: 35rem;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+.referencias div{
+    padding: 2rem;
+}
+
+.similar img, .cercanas img{
+    height: 4rem;
+    width: 4rem;
+}
+
+.similar, .cercanas{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+li{
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+li:hover{
+    background-color: rgb(214, 213, 213);
+    cursor:pointer;
+}
+
+.similar a, .cercanas a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+
+.similar p, .cercanas p{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    margin-left: 1rem;
+}
+
+.similar button{
+    height: 3rem;
+    border: 0;
+    background-color: rgb(231, 231, 231);
+    border-radius: 1rem;
+    font-family: 'Alexandria', sans-serif;
+    color: gray;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.similar button:hover{
+    background-color: rgb(214, 213, 213);
+    cursor:pointer;
+}
+
+.fotos{
+    display: block;
+}
+
+.fotosEncabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+.fotosEncabezado .uno{
+    color: black;
+}
+
+.uno:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.fotosEncabezado .dos{
+    display: flex;
+    text-decoration: none;
+    color: rgb(6, 97, 234);
+    align-items: center;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.fotosEncabezado .dos:hover{
+    background-color: rgb(214, 213, 213);
+    cursor:pointer;
+}
+
+.fotosImagenes{
+    display: flex;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+    background: black;
+    border-radius: 2rem;
+}
+
+.fotosImagenes img{
+    width: 18.1475rem;
+    height: 18.1rem;
+    border: 0.1rem solid white;
+}
+
+footer{
+    height: 13rem;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+footer h2{
+    font-size: 3rem;
+    font-family: 'Alexandria', sans-serif;
+    padding-top: 2rem;
+}
+
+footer div{
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+}
+
+.buttonfooter{
+    height: 3rem;
+    width: 20rem;
+    margin: 0 1rem;
+    border-radius: 0.5rem;
+    border: 0;
+    font-size: 1.5rem;
+    font-family: 'Alexandria', sans-serif;
+    color: white;
+}
+
+.buttonfooter.uno{
+    background-color:  rgb(21, 110, 243);
+    text-decoration: none;
+}
+
+.buttonfooter.uno:hover{
+    background-color:  rgb(6, 97, 234);
+    cursor: pointer;
+}
+
+.buttonfooter.dos{
+    background-color:  rgb(24, 195, 24);
+    text-decoration: none;
+}
+
+.buttonfooter.dos:hover{
+    background-color:  rgb(3, 181, 3);
+    cursor: pointer;
+}
+
+footer p{
+    font-size: 1.2rem;
+    font-family: 'Alexandria', sans-serif;
+}
